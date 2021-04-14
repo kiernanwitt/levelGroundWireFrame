@@ -1,0 +1,187 @@
+*{
+  box-sizing: border-box;
+}
+/*
+header,footer,article{
+  border: solid black 3px;
+} */
+
+header{
+  height: 100px;
+  clear: both;
+  background: rgb(105, 118, 136);
+  color: white;
+  font-family:
+}
+
+nav{
+  height: 50px;
+  text-align: center;
+}
+
+#Donate-link{
+  text-align: center;
+  clear: left;
+  border-color: rgba(45, 45, 45, 0.1);
+  padding: 10px;
+  font-size: 20px;
+  width: 100px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 10px 5px;
+  padding: -4px;
+  float: right;
+  text-decoration: none;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: rgb(105, 118, 136);
+  background-color: white;
+}
+
+.grit{
+  height: 300px;
+  width: 100%;
+  float: left;
+  text-align: center;
+  background-color: rgb(105, 118,136);
+  color: white;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: bolder;
+}
+
+.grit > p{
+  font-weight: normal;
+}
+
+h1{
+  font-size: 36px;
+}
+
+.why{
+  height: 250px;
+  width: 100%;
+  float: left;
+  text-align: center;
+  font-family: 'Roboto Condensed', sans-serif;
+  margin: auto;
+  margin-top: 40px;
+}
+
+.why > h3{
+  font-size: 25px;
+  font-weight: lighter;
+}
+
+.visitGym{
+  height: 400px;
+  width: 50%;
+  float: left;
+  clear: both;
+  background: rgb(220, 223, 226);
+  text-align: center;
+  font-family: 'Roboto Condensed', sans-serif;
+  padding-top: 50px;
+}
+
+.visitYou{
+  height: 400px;
+  width: 50%;
+  float: right;
+  background: rgb(220, 223, 226);
+  text-align: center;
+  font-family: 'Roboto Condensed', sans-serif;
+  padding-top: 50px;
+}
+
+.volunteer{
+  height: 350px;
+  clear: both;
+  text-align: center;
+  font-family: 'Roboto Condensed', sans-serif;
+  padding-top: 50px;
+}
+
+#volunteerHeader{
+  margin-top: 30px;
+}
+
+
+footer{
+  border-top: white 3px;
+  height: 200px;
+  background: rgb(24,34,41);
+  color: white;
+}
+
+.address{
+  height: 50 px;
+  width: 25%;
+  clear: left;
+  text-align: left;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.SM{
+  height: 50 px;
+  width: 25%;
+}
+
+#classes-link{
+  text-align: left;
+  float: left;
+  text-decoration: none;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: bold;
+  color: white;
+}
+
+#hireUs-link{
+  text-align: left;
+  float: left;
+  position: relative;
+  left: 30px;
+  text-decoration: none;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: bold;
+  color: white;
+}
+
+#gritP{
+  max-width: 500px;
+  margin: auto;
+}
+
+#whyP{
+  max-width: 500px;
+  margin: auto;
+}
+
+#volunteer-link{
+  text-align: center;
+  border-color: rgba(45, 45, 45, 0.1);
+  padding: 10px;
+  font-size: 20px;
+  width: 100px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: auto;
+  padding: -4px;
+  text-decoration: none;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: black;
+}
+
+#visitGymP{
+  max-width: 300px;
+  margin: auto;
+}
+
+#visitYouP{
+  max-width: 300px;
+  margin: auto;
+}
+
+#volunteerP{
+  max-width: 500px;
+  margin: auto;
+  padding-bottom: 40px;
+}
